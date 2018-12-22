@@ -1,9 +1,9 @@
 {
   "builds": [
     { "src": "*.html", "use": "@now/static" },
-    { "src": "*.js", "use": "@now/node" },
+    { "src": "*.js", "use": "@now/node" }
   ],
   "routes": [
-    { "src": "/listen", "dest": "/listen.html" },
+    { "src": "/listen", "dest": "/listen.html" }
   ]
 }
